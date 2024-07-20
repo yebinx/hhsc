@@ -1,0 +1,41 @@
+
+wd_lizi.png
+size: 391,234
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L
+  rotate: false
+  xy: 2, 9
+  size: 8, 9
+  orig: 11, 11
+  offset: 1, 1
+  index: -1
+X
+  rotate: false
+  xy: 350, 72
+  size: 39, 39
+  orig: 39, 39
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 239, 2
+  size: 109, 109
+  orig: 128, 128
+  offset: 11, 9
+  index: -1
+guangquan
+  rotate: false
+  xy: 239, 113
+  size: 121, 119
+  orig: 121, 119
+  offset: 0, 0
+  index: -1
+hh
+  rotate: true
+  xy: 2, 20
+  size: 212, 235
+  orig: 300, 300
+  offset: 44, 37
+  index: -1

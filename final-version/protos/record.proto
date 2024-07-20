@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+import "result.proto";
+
+message THhscGameRecordReq
+{
+    string   token               = 1; // 身份令牌
+    string   order_id            = 2; // 交易单号-mongodb-obj-id
+}
+
+
+message THhscGameRecordRsp
+{
+    TResult result               = 1; // 结果
+
+
+    int64   balance              = 11; // 余额   整数int64
+    int64   balance_before_score = 12; // 得分前，下注后的
+    int64   bet                  = 13; // 下注金额  整数int64
+    int64   prize                = 14; // 中奖金额
+    int64   player_win_lose      = 15; // 玩家输赢, 不中奖就是-bet
+
+    bool    free                 = 21; // 是否免费游戏
+	uint32  free_total_times     = 22; // 免费总次数
+	uint32  free_remain_times    = 23; // 免费剩余次数
+    uint64  free_game_total_win  = 24; // 免费游戏总赢
+}
+
+

@@ -1,0 +1,77 @@
+{
+    "saveName": "font_big_award_num",
+    "bitMapCfg": [
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_0.png",
+            "char": "0",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_1.png",
+            "char": "1",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_2.png",
+            "char": "2",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_3.png",
+            "char": "3",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_4.png",
+            "char": "4",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_5.png",
+            "char": "5",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_6.png",
+            "char": "6",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_7.png",
+            "char": "7",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_8.png",
+            "char": "8",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_9.png",
+            "char": "9",
+            "width": 101,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_comma.png",
+            "char": ",",
+            "width": 40,
+            "height": 146
+        },
+        {
+            "image": "D:\\downs\\虎虎生财-复刻 (8)\\num_bw_decimal.png",
+            "char": ".",
+            "width": 40,
+            "height": 146
+        }
+    ]
+}

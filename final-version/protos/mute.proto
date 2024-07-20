@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+import "userinfo.proto";
+
+message THhscMuteReq
+{
+    string token = 1;// 身份令牌
+    int32  mute  = 2;// 静音0-正常-1静音
+}
+
+message THhscMuteRsp
+{
+    THhscPlayerInfo player_info = 1;
+}

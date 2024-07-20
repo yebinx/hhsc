@@ -1,0 +1,20 @@
+
+dianji.png
+size: 323,195
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guanzz5
+  rotate: false
+  xy: 195, 67
+  size: 126, 126
+  orig: 126, 126
+  offset: 0, 0
+  index: -1
+guanzz_f
+  rotate: false
+  xy: 2, 2
+  size: 191, 191
+  orig: 195, 195
+  offset: 2, 2
+  index: -1

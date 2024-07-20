@@ -1,0 +1,82 @@
+
+symbol_big.png
+size: 800,967
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dianguang
+  rotate: false
+  xy: 142, 706
+  size: 656, 259
+  orig: 656, 259
+  offset: 0, 0
+  index: -1
+h3
+  rotate: false
+  xy: 2, 11
+  size: 349, 375
+  orig: 602, 602
+  offset: 131, 103
+  index: -1
+l1
+  rotate: true
+  xy: 354, 356
+  size: 348, 378
+  orig: 602, 602
+  offset: 132, 104
+  index: -1
+l2
+  rotate: false
+  xy: 353, 2
+  size: 367, 352
+  orig: 602, 602
+  offset: 117, 123
+  index: -1
+l3
+  rotate: true
+  xy: 2, 388
+  size: 316, 350
+  orig: 602, 602
+  offset: 135, 115
+  index: -1
+lizi
+  rotate: false
+  xy: 2, 909
+  size: 56, 56
+  orig: 59, 59
+  offset: 1, 2
+  index: -1
+saoguang
+  rotate: false
+  xy: 60, 897
+  size: 80, 68
+  orig: 90, 69
+  offset: 5, 0
+  index: -1
+
+symbol_big2.png
+size: 833,790
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bei_guang
+  rotate: false
+  xy: 406, 2
+  size: 400, 373
+  orig: 400, 373
+  offset: 0, 0
+  index: -1
+h1
+  rotate: true
+  xy: 2, 353
+  size: 435, 402
+  orig: 602, 602
+  offset: 83, 91
+  index: -1
+h2
+  rotate: true
+  xy: 406, 377
+  size: 411, 425
+  orig: 602, 602
+  offset: 102, 72
+  index: -1

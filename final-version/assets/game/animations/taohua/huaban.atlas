@@ -1,0 +1,104 @@
+
+huaban.png
+size: 88,192
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+taohua1
+  rotate: false
+  xy: 45, 144
+  size: 38, 24
+  orig: 47, 33
+  offset: 5, 4
+  index: -1
+taohua10
+  rotate: false
+  xy: 2, 147
+  size: 41, 21
+  orig: 47, 33
+  offset: 4, 8
+  index: -1
+taohua11
+  rotate: false
+  xy: 45, 118
+  size: 41, 24
+  orig: 47, 33
+  offset: 4, 6
+  index: -1
+taohua12
+  rotate: false
+  xy: 41, 2
+  size: 42, 28
+  orig: 47, 33
+  offset: 3, 4
+  index: -1
+taohua13
+  rotate: false
+  xy: 2, 32
+  size: 40, 27
+  orig: 47, 33
+  offset: 3, 4
+  index: -1
+taohua14
+  rotate: false
+  xy: 44, 32
+  size: 40, 27
+  orig: 47, 33
+  offset: 3, 3
+  index: -1
+taohua2
+  rotate: false
+  xy: 2, 93
+  size: 38, 26
+  orig: 47, 33
+  offset: 6, 3
+  index: -1
+taohua3
+  rotate: false
+  xy: 2, 64
+  size: 36, 27
+  orig: 47, 33
+  offset: 6, 3
+  index: -1
+taohua4
+  rotate: false
+  xy: 2, 2
+  size: 37, 28
+  orig: 47, 33
+  offset: 5, 4
+  index: -1
+taohua5
+  rotate: false
+  xy: 40, 61
+  size: 38, 27
+  orig: 47, 33
+  offset: 5, 5
+  index: -1
+taohua6
+  rotate: false
+  xy: 42, 90
+  size: 39, 26
+  orig: 47, 33
+  offset: 5, 5
+  index: -1
+taohua7
+  rotate: false
+  xy: 2, 121
+  size: 41, 24
+  orig: 47, 33
+  offset: 5, 6
+  index: -1
+taohua8
+  rotate: false
+  xy: 44, 170
+  size: 40, 20
+  orig: 47, 33
+  offset: 5, 8
+  index: -1
+taohua9
+  rotate: false
+  xy: 2, 171
+  size: 40, 19
+  orig: 47, 33
+  offset: 5, 9
+  index: -1

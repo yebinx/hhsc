@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+ import "result.proto";
+
+
+message THhscUserInfoReq
+{
+    string      token       = 1;  // 身份令牌
+}
+
+// type THhscBetReq struct {
+// 	utils.TTokenReq
+// 	Bet types.TCash `json:"bet"`
+// }
+
+message THhscUserInfoRsp
+{
+    THhscPlayerInfo     player_info = 1;
+    THhscGameInfo       game_info   = 2;
+    repeated int32 list            = 3 ; // 数组形态, 这个形态下会出更多的内容
+    TRound       lastRound   =4;//上局情况
+}
+
+
+message THhscPlayerInfo
+{
+    int64           id           = 1;         // 玩家id
+    int64           balance      = 3;         // 玩家余额
+    string          account      = 5;         // 玩家账户
+    string          nickname     = 6;         // 玩家昵称(如果需要)
+    int32           type         = 17;        // 玩家类型:0-正常1-试玩
+    int32           mute         = 18;        // 玩家静音:0-正常1-静音
+}
+
+message THhscGameInfo
+{
+    int64           id                          = 1;
+
+    // int32           free_play_times             = 3;    // 上一次下注剩余次数
+    int64           last_time_bet               = 4;    // 最后一次下注额度
+    int64           last_time_bet_id            = 5;    // 上一次下注的iD
+
+    int64           last_time_bet_size          = 10; // 投注大小
+    int32           last_time_basic_bet         = 11; // 基础投注
+    int32           last_time_bet_multiple      = 12; // 下注倍数
+    int32           free_total_times            = 13; // 免费总次数
+    int32           free_remain_times           = 14; // 免费剩余次数
+    int64           free_game_total_win         = 15; // 免费游戏总赢
+    int64           total_bet                   = 16; // 总投注
+    int32           total_bet_times             = 17; // 总投注次数
+    int32           total_free_times            = 18; // 总免费次数
+
+    int32           free_mode_type              = 19; // -1 是选择 0 普通,  1 , 2, 3 对应3个免费
+    int64      last_win                     =22;//上局赢分
+    int64     last_multi =23;//上局倍数 不是1就是10
+}

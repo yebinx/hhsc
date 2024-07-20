@@ -1,0 +1,16 @@
+{
+  "name": "hhsc",
+  "uuid": "64fe9466-a91c-4803-9264-a1f463023241",
+  "creator": {
+    "version": "3.8.0",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {
+      "localization-editor": "1.0.1"
+    }
+  },
+  "dependencies": {
+    "@marsgames/nosleep.js": "^0.12.20"
+  }
+}

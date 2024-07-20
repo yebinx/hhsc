@@ -1,0 +1,30 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+
+// 获取 财神来了 游戏的初始内容
+message THhscBetInfoReq
+{
+  // 不需要任何内容
+}
+
+
+message THhscBetInfoRsp
+{
+    repeated THhscBetInfo  bet_list    = 1; // 下注的信息, 这里获取
+    int32                  default_id  = 2; // 默认的ID
+    repeated  int32   addSubCombination =3 ;//加减组合id
+}
+
+message THhscBetInfo 
+{
+    int64   bet_size       = 1; // 基本下注单位
+    int32   bet_multiple   = 2; // 倍率
+    int32   basic_bet      = 3; // 20,  固定20
+    int64   total_bet      = 4; // 实际下注 
+    int32   id             = 5;  // 下注ID
+    string  bet_size_s     = 11; // 字符串形态
+    string  total_bet_s    = 12; // 字符串形态
+}
+

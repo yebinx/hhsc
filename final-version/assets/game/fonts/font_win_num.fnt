@@ -1,0 +1,16 @@
+info face="face" size=68
+common lineHeight=68 scaleW=253 scaleH=208 pages=1
+page id=0 file="font_win_num.png"
+chars count=12
+char id=48 x=104 y=70 width=49 height=68 xoffset=0 yoffset=0 xadvance=49 page=0 chnl=15
+char id=49 x=206 y=70 width=38 height=68 xoffset=0 yoffset=0 xadvance=38 page=0 chnl=15
+char id=50 x=0 y=0 width=50 height=68 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=51 x=156 y=0 width=48 height=68 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=15
+char id=52 x=156 y=70 width=48 height=68 xoffset=0 yoffset=0 xadvance=48 page=0 chnl=15
+char id=53 x=206 y=0 width=47 height=68 xoffset=0 yoffset=0 xadvance=47 page=0 chnl=15
+char id=54 x=52 y=0 width=50 height=68 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=55 x=104 y=0 width=50 height=68 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=56 x=0 y=70 width=50 height=68 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=57 x=52 y=70 width=50 height=68 xoffset=0 yoffset=0 xadvance=50 page=0 chnl=15
+char id=44 x=0 y=140 width=22 height=68 xoffset=0 yoffset=0 xadvance=22 page=0 chnl=15
+char id=46 x=24 y=140 width=22 height=68 xoffset=0 yoffset=0 xadvance=22 page=0 chnl=15

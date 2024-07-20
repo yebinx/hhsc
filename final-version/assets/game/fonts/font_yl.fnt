@@ -1,0 +1,14 @@
+info face="face" size=44
+common lineHeight=44 scaleW=145 scaleH=135 pages=1
+page id=0 file="font_yl.png"
+chars count=10
+char id=48 x=0 y=46 width=34 height=43 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15
+char id=49 x=34 y=91 width=25 height=43 xoffset=0 yoffset=0 xadvance=25 page=0 chnl=15
+char id=50 x=37 y=0 width=35 height=43 xoffset=0 yoffset=0 xadvance=35 page=0 chnl=15
+char id=51 x=36 y=46 width=34 height=43 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15
+char id=52 x=72 y=46 width=34 height=43 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15
+char id=53 x=0 y=91 width=32 height=44 xoffset=0 yoffset=0 xadvance=32 page=0 chnl=15
+char id=54 x=111 y=0 width=34 height=43 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15
+char id=55 x=0 y=0 width=35 height=44 xoffset=0 yoffset=0 xadvance=35 page=0 chnl=15
+char id=56 x=74 y=0 width=35 height=43 xoffset=0 yoffset=0 xadvance=35 page=0 chnl=15
+char id=57 x=111 y=45 width=34 height=43 xoffset=0 yoffset=0 xadvance=34 page=0 chnl=15

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+
+message THhscHeartBeatReq 
+{
+    string      token       = 1;  // 身份令牌    
+}
+
+message THhscHeartBeatRsp 
+{
+    uint64 timestamp = 1; // 毫秒时间戳        
+}

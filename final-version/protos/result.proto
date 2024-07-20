@@ -1,0 +1,73 @@
+syntax = "proto3";
+
+//option go_package="hhsc/game;game";
+
+message TResultList {
+    repeated TResult   result_list = 1; // 结果的结果集
+}
+
+// 扩展信息
+//message TResultExpandInfo {
+//    int64  bet              = 1;   // 下注额度
+//
+//    uint32 free_index        = 11;  // 轮次
+//    uint32 free_total_times  = 12;  // 免费总次数
+//    uint32 free_remain_times = 13;  // 剩余免费次数
+//}
+
+
+message TResult {
+    repeated TRound        round_list            = 1;  //
+    int32                  rate                  = 2;  // 本轮中奖的基本倍率	
+//    uint32                 scatter_count         = 3;  // 夺宝数量
+
+//    TResultExpandInfo      expand_info           = 4;  // 扩展信息
+    // uint32                 wild_count            = 4; // 没有这个值
+    // uint32                 free_play             = 5; // 获得几次免费次数    // 不在这里
+}
+
+
+message TRound {
+    repeated int32         item_type_list     = 1;  // 本次所有卡牌, 0-14,
+    int32                  round_rate         = 2;  // 本次中奖的
+    uint32                 round              = 3;  // 轮号
+    uint32                 multi_time         = 4;  // 翻倍倍数表, 1 2 3 5 还是  "6, 12, 18, 40"  # 免费游戏3  5次
+    repeated TPrize        prize_list         = 5;  // 奖励列表
+    repeated int32         next_list          = 6;  // 下一次要出的列表    
+    repeated TUintList     drop_list          = 7;  // 下落的列表
+    repeated uint32        win_pos_list       = 8;  // 胜利位置, 所有一起的胜利的位置
+    int64                  balance            = 9;  // 当前的余额是多少
+    uint32                 free_play          = 10; // 获得几次免费次数
+    int64                  win                = 11; // 玩家本轮中奖
+    int32                  free_mode_type     = 12; // -1 是选择 0 普通,  1 , 2, 3 对应3个免费
+    repeated int32         item_type_list_append     = 13;  // 免费里面覆盖的盘面
+    int32                   all_win_item      = 14; //全屏消除且为同一个图标
+    string                  balance_s         = 21;  // 当前的余额是多少
+    string                  win_s             = 22;  // 玩家的输赢
+   
+    
+}
+
+
+// 奖励的具体详情
+message TPrize {
+    repeated uint32     win_pos_list          = 1; // 胜利位置, 给客户端做连线和消除用
+    uint32              index                 = 2; // 线路编号
+    uint32              level                 = 3; // 轴, 至少是3, 至多是5
+    int32               item_type             = 4; // 中奖麻将类型
+    int32               rate                  = 5; // 图标倍数
+    repeated uint32     win_item_list         = 6; // 消除用的单线
+    uint32              multi_time            = 7;  // 翻倍倍数表, 1 2 3 5 还是  "6, 12, 18, 40"  # 免费游戏3  5次
+    int64               win                   = 11; // 玩家本轮中奖        
+
+    string              level_s               = 23; // 轴, 至少是3, 至多是5
+    string              item_type_s           = 24; // 中奖麻将类型
+    string              rate_s                = 25; // 中奖麻将类型
+    string              multi_time_s          = 27; // 奖金乘数
+    string              win_s                 = 31; // 玩家的输赢
+}
+
+// 展示用的二维数组
+message TUintList {
+    repeated uint32    list = 1; 
+}

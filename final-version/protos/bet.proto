@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+//option go_package="hhsc/gin;hhscgin";
+
+import "result.proto";
+
+message THhscBetReq
+{
+    string      token       = 1;  // 身份令牌    
+    int32       id          = 3;  // 下注ID
+    string      idempotent  = 9;  // 幂等标识
+}
+
+message THhscBetRsp
+{
+    TResult result                = 1; // 结果
+    string  round_id              = 2; // 牌局信息    
+    string  order_id              = 3; // 牌局信息    
+
+    int64   balance               = 11; // 余额   整数int64
+    int64   bet                   = 12; // 下注金额  整数int64
+    int64   prize                 = 13; // 中奖金额
+    int64   player_win_lose       = 14; // 玩家输赢, 不中奖就是-bet
+
+    bool    is_enter_free_game    = 15; // 是否进入免费游戏
+
+    int32   chooseItem            =16;//虎虎生财选中的图标
+
+    string  balance_s             = 21; // 余额   
+    string  bet_s                 = 22; // 下注金额 
+    string  prize_s               = 23; // 中奖金额
+    string  player_win_lose_s     = 24; // 玩家输赢, 不中奖就是-be
+    string  free_game_total_win_s = 25; // 免费游戏总赢
+    repeated string dbg = 999; // 调试模式
+}

@@ -1,0 +1,90 @@
+
+ui_jisu.png
+size: 327,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+guan
+  rotate: false
+  xy: 94, 17
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+jisu
+  rotate: false
+  xy: 186, 17
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+shandian1
+  rotate: true
+  xy: 71, 2
+  size: 13, 25
+  orig: 13, 25
+  offset: 0, 0
+  index: -1
+shandian2
+  rotate: true
+  xy: 134, 4
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+shandian3
+  rotate: true
+  xy: 41, 2
+  size: 13, 28
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+shandian4
+  rotate: true
+  xy: 2, 4
+  size: 11, 37
+  orig: 11, 37
+  offset: 0, 0
+  index: -1
+shandian5
+  rotate: true
+  xy: 98, 7
+  size: 8, 34
+  orig: 8, 36
+  offset: 0, 1
+  index: -1
+shandian6
+  rotate: false
+  xy: 278, 16
+  size: 26, 28
+  orig: 26, 28
+  offset: 0, 0
+  index: -1
+shandian7
+  rotate: false
+  xy: 306, 12
+  size: 19, 32
+  orig: 19, 32
+  offset: 0, 0
+  index: -1
+shandiankai
+  rotate: true
+  xy: 278, 75
+  size: 32, 42
+  orig: 32, 42
+  offset: 0, 0
+  index: -1
+zidong
+  rotate: true
+  xy: 278, 46
+  size: 27, 34
+  orig: 31, 34
+  offset: 4, 0
+  index: -1
+zidongquan
+  rotate: false
+  xy: 2, 17
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1

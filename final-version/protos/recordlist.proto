@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+
+
+message THhscRecordListReq
+{
+    string      token                = 1; // 身份令牌
+
+    int64       start_timestamp      = 2; // 开始时间-时间戳-毫秒
+    int64       end_timestamp        = 3; // 结束时间-时间戳-毫秒, 如果这个等于0会使用当前时间戳
+
+    int32       limit                = 4; // 请求的数量, 如果是0 会是默认值10, 如果超过200, 则是200
+
+    // 注意, 5 , 6, 7  只能有一个生效,
+    // 顺序 id > page > offset
+    int32       page                 = 5; // 第几页? 从0开始
+    int64       id                   = 6; // 第一次是0, 以后每一次就是用上一次的id
+    int32       offset               = 7; // 偏移量,
+
+}
+
+
+message THhscRecordListRsp
+{
+    string      bet_s                         = 1;  // 总下注
+    string      win_s                         = 2;  // 总盈利
+    repeated THhscRecordInfo list             = 10; // 游戏记录
+    int64       id                            = 11; // 用来查询的ID
+    uint32      count                         = 12; // 数量
+    int64       bet                           = 13; // 总下注
+    int64       win                           = 14; // 总盈利
+}
+
+
+message THhscRecordInfo
+{
+    string   create_time         = 1; 
+    string   order_id            = 2; // 数据库索引-mongodb-obj-id
+    string   round_id            = 3; // 交易单号    
+    string   win_s               = 4; // 盈利
+    string   bet_s               = 5; // 下注    
+    int32    free_times          = 6; // 免费游戏次数
+    int32    free_mode_type      = 7; // -1 是选择 0 普通,  1 , 2, 3 对应3个免费
+
+    int64    create_timestamp    = 10; // 创建时间-时间戳-毫秒
+    bool     free                = 11; // 是否免费游戏
+    uint32   normal_round_times  = 12; // 普通游戏
+    uint32   free_round_times    = 13; // 免费游戏
+    int64    bet                 = 14; // 下注的额度
+    int64    win                 = 15; // 盈利    
+}

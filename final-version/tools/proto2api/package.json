@@ -1,0 +1,26 @@
+{
+  "name": "proto2api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "rimraf ./build && tsc",
+    "dev": "nodemon",
+    "start": "npm run build && node build/index.js",
+    "ts-node": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fs-extra": "^10.1.0",
+    "prettier": "^2.7.1",
+    "protobufjs": "^7.1.2",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/prettier": "^2.7.1",
+    "ts-node": "^10.9.1"
+  }
+}

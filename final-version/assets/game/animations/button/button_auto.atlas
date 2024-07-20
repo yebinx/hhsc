@@ -1,0 +1,201 @@
+
+button.png
+size: 1019,953
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniuguang1
+  rotate: false
+  xy: 382, 225
+  size: 262, 248
+  orig: 262, 248
+  offset: 0, 0
+  index: -1
+anniuguang2
+  rotate: true
+  xy: 701, 407
+  size: 237, 238
+  orig: 237, 238
+  offset: 0, 0
+  index: -1
+bgguang1
+  rotate: false
+  xy: 89, 870
+  size: 114, 81
+  orig: 378, 225
+  offset: 136, 88
+  index: -1
+bgguang14
+  rotate: false
+  xy: 2, 119
+  size: 378, 197
+  orig: 378, 225
+  offset: 0, 18
+  index: -1
+bgguang15
+  rotate: false
+  xy: 2, 318
+  size: 378, 184
+  orig: 378, 225
+  offset: 0, 33
+  index: -1
+bgguang16
+  rotate: false
+  xy: 2, 504
+  size: 378, 167
+  orig: 378, 225
+  offset: 0, 47
+  index: -1
+bgguang2
+  rotate: false
+  xy: 829, 820
+  size: 173, 131
+  orig: 378, 225
+  offset: 108, 64
+  index: -1
+bgguang3
+  rotate: false
+  xy: 2, 728
+  size: 217, 132
+  orig: 378, 225
+  offset: 81, 43
+  index: -1
+bgguang4
+  rotate: false
+  xy: 221, 673
+  size: 254, 152
+  orig: 378, 225
+  offset: 65, 21
+  index: -1
+bgguang5
+  rotate: false
+  xy: 382, 475
+  size: 317, 178
+  orig: 378, 225
+  offset: 38, 8
+  index: -1
+bgguang6
+  rotate: false
+  xy: 646, 208
+  size: 371, 197
+  orig: 378, 225
+  offset: 7, 5
+  index: -1
+bgguang7
+  rotate: false
+  xy: 382, 2
+  size: 378, 204
+  orig: 378, 225
+  offset: 0, 11
+  index: -1
+e
+  rotate: false
+  xy: 2, 892
+  size: 85, 59
+  orig: 87, 62
+  offset: 2, 3
+  index: -1
+hua1
+  rotate: false
+  xy: 205, 862
+  size: 89, 89
+  orig: 97, 97
+  offset: 4, 4
+  index: -1
+spin_arrow
+  rotate: false
+  xy: 549, 823
+  size: 138, 128
+  orig: 140, 132
+  offset: 1, 2
+  index: -1
+spin_arrow_blur
+  rotate: true
+  xy: 422, 827
+  size: 124, 125
+  orig: 127, 127
+  offset: 2, 1
+  index: -1
+spin_arrow_grey
+  rotate: false
+  xy: 689, 823
+  size: 138, 128
+  orig: 140, 132
+  offset: 1, 2
+  index: -1
+spin_arrow_grey_blur
+  rotate: false
+  xy: 296, 827
+  size: 124, 124
+  orig: 124, 124
+  offset: 0, 0
+  index: -1
+spin_button
+  rotate: true
+  xy: 477, 656
+  size: 165, 171
+  orig: 165, 173
+  offset: 0, 2
+  index: -1
+spin_button_2
+  rotate: true
+  xy: 650, 655
+  size: 166, 173
+  orig: 166, 173
+  offset: 0, 0
+  index: -1
+spin_vfx_a
+  rotate: false
+  xy: 825, 646
+  size: 172, 172
+  orig: 172, 172
+  offset: 0, 0
+  index: -1
+
+button2.png
+size: 844,596
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bgguang10
+  rotate: true
+  xy: 216, 216
+  size: 378, 212
+  orig: 378, 225
+  offset: 0, 7
+  index: -1
+bgguang11
+  rotate: false
+  xy: 382, 2
+  size: 378, 212
+  orig: 378, 225
+  offset: 0, 7
+  index: -1
+bgguang12
+  rotate: true
+  xy: 430, 216
+  size: 378, 205
+  orig: 378, 225
+  offset: 0, 12
+  index: -1
+bgguang13
+  rotate: true
+  xy: 637, 216
+  size: 378, 205
+  orig: 378, 225
+  offset: 0, 13
+  index: -1
+bgguang8
+  rotate: true
+  xy: 2, 216
+  size: 378, 212
+  orig: 378, 225
+  offset: 0, 9
+  index: -1
+bgguang9
+  rotate: false
+  xy: 2, 2
+  size: 378, 212
+  orig: 378, 225
+  offset: 0, 9
+  index: -1

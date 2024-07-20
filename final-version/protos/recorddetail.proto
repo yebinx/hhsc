@@ -1,0 +1,84 @@
+syntax = "proto3";
+
+option go_package="hhsc/gin;hhscgin";
+
+import "result.proto";
+
+
+
+// 详情
+message THhscRecordDetailReq
+{
+    string   token               = 1; // 身份令牌
+    string   order_id            = 2; // 交易单号, 前面拿到的order_id
+}
+
+
+message THhscRecordDetailRsp
+{
+    repeated THhscRecordDetailInfo list            = 1 ; // 游戏记录
+}
+
+// 回合的详情
+message THhscRoundDetailInfo
+{
+    string        bet_s                = 1; //
+    string        prize_s              = 2; // 中奖金额
+    string        player_win_lose_s    = 3; // 玩家的输赢
+    string        balance_s            = 4; // 余额
+    string        bet_size_s           = 5; // 投注大小
+    uint32        round                = 6; // 轮号
+
+    string        order_id             = 9; // 数据库索引-mongodb-obj-id
+    string        round_id             = 10; // 交易单号    
+    
+    int64         bet                  = 11; // 投注
+    int64         prize                = 12; // 中奖金额
+    int64         player_win_lose      = 13; // 玩家的输赢
+    int64         balance              = 14; // 余额
+    int64         bet_size             = 15; // 投注大小
+
+	int32         bet_multiple         = 21;// 投注倍数
+	int32         basic_bet            = 22;// 基础投注
+    uint32        multi_time           = 23; // 翻倍倍数表
+
+    
+    int32    prize_list_count          = 31; // 奖励数量
+    repeated TPrize  prize_list        = 32; // 奖励列表
+    repeated int32   item_type_list    = 33; // 本次所有卡牌, 0-22,
+
+}
+
+message THhscRecordDetailInfo
+{
+    string   create_time                          = 1; // 创建时间-时间
+    string   order_id                             = 2; // 数据库索引-mongodb-obj-id
+    string   round_id                             = 3; // 交易单号
+    string   bet_s                                = 4;
+    string   prize_s                              = 5;
+    int32    free_mode_type                       = 6; // -1 是选择 0 普通,  1 , 2, 3 对应3个免费
+    string   player_win_lose_s                    = 7;
+    string   balance_s                            = 8; // 余额   整数string
+    string   balance_before_score_s               = 9; // 得分前，下注后的
+
+    int64    create_timestamp                     = 11; // 创建时间-时间戳-毫秒
+       
+    int64   bet                                   = 14; // 下注金额  整数int64
+    int64   prize                                 = 15; // 中奖金额
+    int64   player_win_lose                       = 17; // 玩家输赢, 不中奖就是-bet
+    int64   balance                               = 18; // 余额   整数int64
+    int64   balance_before_score                  = 19; // 得分前，下注后的
+    
+    bool    free                                  = 21; // 是否免费游戏
+    uint32  free_total_times                      = 22; // 免费总次数
+    uint32  free_remain_times                     = 23; // 免费剩余次数
+    uint64  free_game_total_win                   = 24; // 免费游戏总赢
+
+    int64   bet_size                              = 25; // 投注大小
+    int32   basic_bet                             = 26; // 基础投注    -  这里固定20
+    int32   bet_multiple                          = 27; // 投注倍数
+
+    int32    round_list_count                     = 31; // round list 的数量
+    repeated THhscRoundDetailInfo round_list      = 32; // 回合的详情
+    // TResult  result                               = 5; // 这个是就是正常的下注的信息, 这里应该不直接返回,
+}
